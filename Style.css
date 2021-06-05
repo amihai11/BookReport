@@ -1,0 +1,60 @@
+﻿body {
+    text-align:left;
+    direction:ltr;
+    background-color:Highlight;
+}
+.title {
+    font-size: 80px;
+    font-family: Calibri;
+    width: 100%;
+    text-align: center;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white
+}
+.row{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.text {
+    font-size: 35px;
+    font-family: Calibri;
+    flex:70%;
+    border:1px solid black;
+    min-width:500px;    
+    margin-left:20px;
+    margin-top:10px;
+    background-color:lightblue;
+    padding:10px;
+}
+.info {
+    flex: 24%;
+    background-color: aqua;
+    margin-top: 10px;
+    margin:10px;
+    padding:10px;
+    font-family:'Arial Nova';
+}
+img{
+    max-width:300px;
+}
+#myBtn {
+    display: flex;
+    position: fixed;
+    top: 40px;
+    right: 35px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: orangered;
+    border: 3px solid groove;
+    color: white;
+    padding: 15px;
+    width: 240px;
+    border-radius: 4px;
+    justify-content:center;
+}
+
+    #myBtn:hover {
+        background-color: orange;
+    }
