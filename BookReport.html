@@ -2,44 +2,52 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Blog</title>
-    <link rel="stylesheet" href="Style.css" />
+    <title>Book Report</title>
+    <style>
+        h1{
+            font-size:70px;
+            font-family:Calibri;
+        }
+        h2{
+            font-family:Arial;
+        }
+        #myBtn {
+            display: flex;
+            position: fixed;
+            top: 40px;
+            right: 35px;
+            font-size: 100px;
+            border: none;
+            outline: none;
+            background-color: orangered;
+            border: 3px solid groove;
+            color: white;
+            padding: 15px;
+            width: 500px;
+            border-radius: 4px;
+            justify-content: center;
+        }
+
+            #myBtn:hover {
+                background-color: orange;
+            }
+    </style>
 </head>
 <body>
-    <button id="myBtn" onclick="location.href='BookReport.html'"> Go Back</button>
-    <div class="title">
-        <u> August Pullman's Blog</u>
-    </div>
-    <br />
-    <div class="row">
-        <div class="text">
-
-            Hello everyone, my name is August Pullman and this is my blog. Today I’ll talk about My Daily Routine and I'll describe to you how does it feel to be someone like me with a facial deformity. Before I start, there are a few details about me that I would like to share with you: <br />
-            <ul>
-                <li>
-                    I am 10 years old
-                </li>
-                <li>
-                    I live with my parents, my sister Via and my dog Daisy
-                </li>
-                <li>
-                    I just started a new school after four years of homeschooling
-                </li>
-            </ul>
-            In the beginning, it was very hard for me to make social interactions with kids from my school because everyone considered me some kind of monster, and rumors circulated that I was spreading disease. I did have a few friends but it was not a strong friendship as it was with my childhood friends. On Halloween, my friend Jack talked about me some bad stuff to impress the popular kids. He did not see me because I was wearing a bleeding scream costume but I could hear him very clear. It almost destroys our friendship but today we've made peace with each other and we are best friends.
-            <br /><br />As you may have realized, I had a very hard time in school. Every day I felt humiliated embarrassed and especially different. But now things have changed and I am a lot happier to go to school. After a fight I was a part of on one of the school trips I became very popular and people stopped alienating me anymore. I even received a certificate of social excellence upon graduation and I'm part of a very cohesive group of friends.
-            
-            Today, Every day is full of happiness and self-development. Every morning I wake up with positive energy for the new day and I don't have depression at all. I play with my friend at school and we always meet each other in the afternoon.
-            <br /><br />
-            Finally, I hope you got my message: We all have something that makes us different but we should never let this influence our lives.
+    <button id="myBtn" onclick="location.href='Main.html'"> Go to the blog</button>
+    <h1>Book Report - 5.6</h1>
+    <div style="display:flex;flex-wrap:wrap; width:50%;max-width:1000px;margin-left:20px; border:0px solid;">
+        <div style="flex:60%; min-width:500px">
+            <h2>Student Name: <u>Amihai Ratson</u></h2>
+            <h2>Class: <u>י'11</u></h2>
+            <h2>Date submitted: <u>5.6.2021</u></h2>
+            <h2>Book Name: <u>Wonder</u></h2>
+            <h2>Author: <u>R. J. Palacio</u></h2>
+            <h2>Project type: <u>Blog - "a day in my life"</u></h2>
         </div>
-        <div class="info" id="info">
-            <h1>
-                Picture of me:
-            </h1>
-            <img src="image/ogi.jpg" />
+        <div style="flex:30%">
+            <img src="image/book.png" />
         </div>
     </div>
-    
 </body>
 </html>
